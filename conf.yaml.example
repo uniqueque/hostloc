@@ -1,0 +1,12 @@
+tg_token: <TgToken的值>
+tg_id: <TgId的值>
+users:
+  - username: <第一个用户的Username/email的值>
+    password: <第一个用户的Password的值>
+    fastloginfield: <登录类型[email/username]用户名不包含@的话可不填>
+    tg_id: <指定别的tgid接受消息，不填就推送到外面的那个tgid>
+  - username: <第二个用户的Username的值>
+    password: <第二个用户的Password的值>
+    fastloginfield: <第二个用户的FastLoginField的值>
+    tg_id: <指定别的tgid接受消息，不填就推送到外面的那个tgid>
+# 可以继续添加更多的用户
